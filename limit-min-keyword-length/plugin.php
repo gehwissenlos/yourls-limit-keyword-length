@@ -15,7 +15,7 @@ function limit_min_keyword_length( $too_short, $url, $keyword ) {
 	$min_keyword_length = 7;
 	$keyword_length = strlen($keyword);
 
-	if ( $keyword_length < $min_keyword_length ) {
+	if ( $keyword_length < $min_keyword_length && $keyword_length > 0) {
 		$return['status']   = 'fail';
 		$return['code']     = 'error:keyword';
 		$return['message']  = "Sorry, the keyword is too short. It needs to have at least " . $min_keyword_length . " characters.";
