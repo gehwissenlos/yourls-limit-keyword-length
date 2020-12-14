@@ -5,7 +5,7 @@ Plugin URI: https://github.com/gehwissenlos/yourls-limit-keyword-length/
 Description: This plugin limits the number of minimal characters for the custom keyword. An error is then returned if the keyword is too short.
 Version: 1.0
 Author: gehwissenlos
-AuthorURI: https://sonnengipfel.de
+Author URI: https://sonnengipfel.de
 */
 
 // Hook our custom function into the 'shunt_add_new_link' filter
